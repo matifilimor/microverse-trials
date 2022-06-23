@@ -1,5 +1,5 @@
 body {
-    font-family: "Sofia", sans-serif;
+    font-family:"Audiowide", sans-serif;
   }
 #main {
     width: 95%;
@@ -7,12 +7,18 @@ body {
     margin: 30px auto;
     background: linear-gradient(to bottom,skyblue, white );
     border-radius: 10px;
-
+    padding: 20px;
 }
 #image {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     display: block;
     margin: auto;
     border-radius: 5px;
+}
+#title, #img-caption {
+    text-align: center;
+}
+#tribute-info{
+    text-align: justify;
 }
