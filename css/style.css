@@ -1,3 +1,6 @@
+body {
+    font-family: "Sofia", sans-serif;
+  }
 #main {
     width: 95%;
     height: 100vh;
@@ -5,4 +8,11 @@
     background: linear-gradient(to bottom,skyblue, white );
     border-radius: 10px;
 
+}
+#image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
 }
